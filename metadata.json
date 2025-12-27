@@ -1,0 +1,5 @@
+{
+  "name": "GazeCraft",
+  "description": "An accessible, gaze-controlled voxel building and survival game. Mine resources, craft items, and explore AI-generated biomes using only your eyes.",
+  "requestFramePermissions": []
+}
