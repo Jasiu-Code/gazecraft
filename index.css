@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom cursor hiding for game immersion */
+body {
+    cursor: none; 
+    overflow: hidden;
+    background-color: #0f172a;
+}
