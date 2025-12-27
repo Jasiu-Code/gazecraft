@@ -1,7 +1,7 @@
-import { GoogleGenAI, Type } from "@google/genai";
-import { BlockType, Chunk3D, BlockData } from "../types";
+import { Chunk3D, BlockData } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+// Removed GoogleGenAI dependency to prevent "Missing API Key" errors in browser.
+// Using deterministic generation only.
 
 interface GeneratedCell {
   type: string;
